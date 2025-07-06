@@ -1,0 +1,7 @@
+TThis project utilizes a custom-synthesized dataset, smile, which is an aggregation of three distinct publicly available dental radiography collections: dc1000, dental_radiography, and opg_xray. The source datasets were processed into a unified format, and the corresponding processing scripts are provided within each respective directory.
+
+The smile dataset is structured in the YOLO annotation format. The complete, aggregated dataset is located in the smile/combined directory. For model training and evaluation, the dataset has been partitioned into training, validation, and testing sets following an 80:10:10 split ratio. These subsets are available in the smile/split directory. The script that performs this random allocation by selecting data from the combined directory and placing it into the split subdirectories is also located in the smile/combined directory.
+
+dc1000 dataset: https://github.com/Zzz512/MLUA?tab=readme-ov-file
+dental_radiography dataset: https://www.kaggle.com/datasets/imtkaggleteam/dental-radiography
+opg_xray dataset: https://data.mendeley.com/datasets/c4hhrkxytw/4
