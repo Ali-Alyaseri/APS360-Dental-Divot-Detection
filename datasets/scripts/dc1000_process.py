@@ -95,13 +95,8 @@ def process_and_integrate_dataset(base_path, combined_path, dataset_name="dc1000
 
 
 if __name__ == "__main__":
-    # The script is in 'datasets/scripts', so we navigate relative paths
     current_dir = os.path.dirname(os.path.abspath(__file__))
-
-    # Path to the source dc1000 dataset
     dc1000_path = os.path.join(current_dir, "..", "dc1000")
-
-    # Path to the global combined dataset directory
     combined_dataset_path = os.path.join(current_dir, "..", "smile", "combined")
 
     process_and_integrate_dataset(
