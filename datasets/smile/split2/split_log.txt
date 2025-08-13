@@ -1,0 +1,4 @@
+2025-08-12 20:06:15,859 - INFO - Total files processed: 5221
+2025-08-12 20:06:15,859 - INFO - Training set size:   4176 files (79.98%)
+2025-08-12 20:06:15,859 - INFO - Validation set size: 522 files (10.00%)
+2025-08-12 20:06:15,859 - INFO - Test set size:       523 files (10.02%)

@@ -92,6 +92,6 @@ def create_split_datasets(
 if __name__ == "__main__":
     current_dir = os.path.dirname(os.path.abspath(__file__))
     combined_dir = os.path.join(current_dir, "..", "smile", "combined")
-    split_dir = os.path.join(current_dir, "..", "smile", "split")
+    split_dir = os.path.join(current_dir, "..", "smile", "split2")
 
     create_split_datasets(combined_dir, split_dir)
