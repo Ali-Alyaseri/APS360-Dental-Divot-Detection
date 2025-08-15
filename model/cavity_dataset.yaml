@@ -1,0 +1,6 @@
+names:
+- cavity
+nc: 1
+test: /content/drive/MyDrive/split_medium/test/images
+train: /content/drive/MyDrive/split_medium/train/images
+val: /content/drive/MyDrive/split_medium/val/images
